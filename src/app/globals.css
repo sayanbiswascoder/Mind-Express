@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chenge_avatar::before{
+    content: "Change Avatar";
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+  *{
+    transition: all 0.3s ease;
+  }
